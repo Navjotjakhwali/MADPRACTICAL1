@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="MAD LAB"
-        app:titleTextColor="@color/white" />
+         />
 
     <TextView
         android:id="@+id/textView"
@@ -52,7 +52,6 @@
         android:layout_marginTop="172dp"
         android:background="@drawable/shape"
         android:text="Radio Btn"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,7 +63,6 @@
         android:layout_marginTop="172dp"
         android:background="@drawable/shape"
         android:text="Check Box"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,7 +74,6 @@
         android:layout_marginTop="268dp"
         android:background="@drawable/shape"
         android:text="Screen Rotate"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -88,7 +85,6 @@
         android:layout_marginTop="268dp"
         android:background="@drawable/shape"
         android:text="Date Time"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,7 +96,6 @@
         android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="Progress Bar"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -112,7 +107,6 @@
         android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="Spinner"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -124,7 +118,6 @@
         android:layout_marginTop="480dp"
         android:background="@drawable/shape"
         android:text="Rating bar"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

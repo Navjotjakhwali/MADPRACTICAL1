@@ -3,7 +3,10 @@
     <style name="Base.Theme.MADLAB" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        </style>
 
     <style name="Theme.MADLAB" parent="Base.Theme.MADLAB" />
+
 </resources>

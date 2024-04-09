@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="MAD LAB"
-        app:titleTextColor="@color/white" />
+         />
 
     <TextView
         android:id="@+id/textView"
@@ -75,7 +75,6 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/shape"
         android:text="Submit"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/checkBox3"
         app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="@+id/checkBox3"

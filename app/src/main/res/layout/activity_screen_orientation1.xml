@@ -15,8 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="MAD LAB"
-        app:titleTextColor="@color/white" />
+        app:title="MAD LAB" />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -30,7 +29,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <android.widget.Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -39,7 +37,6 @@
         android:background="@drawable/shape"
         android:onClick="onClick"
         android:text="Next Activity"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

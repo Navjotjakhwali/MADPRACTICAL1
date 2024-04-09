@@ -1,37 +1,24 @@
 package com.example.madlab;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-public class SpinnerActivity extends AppCompatActivity {
-
-    @Override
+public class SpinnerActivity extends AppCompatActivity { @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner);
         Spinner spinner = findViewById(R.id.spinner);
-
         ConstraintLayout constraintLayout = findViewById(R.id.main);
-
         String[] colors = {"Blue", "Green", "Yellow", "Orange", "Purple"};
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, colors);
         spinner.setAdapter(arrayAdapter);
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
                 switch (position) {
                     case 0:
                         constraintLayout.setBackgroundColor(Color.parseColor("#0091EA"));
@@ -46,15 +33,13 @@ public class SpinnerActivity extends AppCompatActivity {
                         constraintLayout.setBackgroundColor(Color.parseColor("#F9A86C"));
                         break;
                     case 4:
-                        constraintLayout.setBackgroundColor(Color.parseColor("#C39AFC"));
-
-                }
-            }
-
+                        constraintLayout.setBackgroundColor(Color.parseColor("#C39AFC")); }}
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
             }
         });
     }
 }
+
+
+
